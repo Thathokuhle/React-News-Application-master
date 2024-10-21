@@ -5,7 +5,7 @@ import NewsBoard from './Components/NewsBoard';
 
 function App() {
   const [category, setcategory] = useState('technology')
-  const [country, setCountry] = useState('za')
+  const [country, setCountry] = useState('us')
   const [loading, setLoading] = useState(false)
 
   const setUpCountry = (countryCode) => {
